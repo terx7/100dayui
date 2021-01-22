@@ -22,13 +22,13 @@
       </div>
     </div>
     <div class="sub-main2">
-    <button class="button-one" type="button" @click="setRunning(true)">
-      Start
-    </button>
-    <button class="button-one" type="button" @click="setRunning(false)">
-      Stop
-    </button>
-  </div>
+      <button class="button-one" type="button" @click="setRunning(true)">
+        Start
+      </button>
+      <button class="button-one" type="button" @click="setRunning(false)">
+        Stop
+      </button>
+    </div>
   </div>
 </template>
 
@@ -116,11 +116,14 @@ a:hover {
 
 .main {
   width: 100%;
+  padding: 1rem 0rem 3rem;
+
 }
 
 .sub-main {
   width: 30%;
   margin: 22px;
+  align-self: center;
   float: left;
 }
 .sub-main2 {
@@ -139,7 +142,7 @@ a:hover {
 
 /*Button One*/
 .button-one {
-  padding: 20px 50px;
+  padding: 10px 30px;
   outline: none;
   background-color: #27ae60;
   border: none;
